@@ -1,0 +1,756 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+    height: 3.125rem;
+    background-color: #090606;
+    
+}
+/* Home About Cards Loan Deposit */
+nav .elements_nav_left{
+    padding: 0.625em;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+        
+}
+nav .elements_nav_left  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.975rem; 
+    width: 5rem;
+    border: 0.1rem solid #FAA305;
+    border-radius: 1rem; 
+    background-color: #FAA305;
+    color: white;
+    text-decoration: none;    
+}
+.elements_nav_left a:hover{
+    transition: 1s;
+    background-color: black;
+    color: #FAA305;
+}
+/* Settings Quit */
+.elements_nav_right{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 35%;    
+}
+.elements_nav_right a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    padding: 0.99rem;
+    border: 0.1rem solid #FAA305;
+    border-radius: 1rem;
+    background-color: #FAA305;
+    color: white;
+    text-decoration: none;
+}
+.elements_nav_right a:hover{
+    transition: 1s;
+    background-color: black;
+    color: #FAA305;
+}
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAA305;
+    height: 14.375rem;   
+}
+header img{
+    width: 13.5rem ;
+    height: 14.25rem;
+}
+
+.mainbar_logo{    
+    margin-left: 6.25rem;
+    
+}
+.mainbar_clause{
+   margin-top: 2.5rem;
+
+}
+
+.mainbar_clause_one{
+    display: block;
+    width: 40vw;
+    padding: 3.125rem;
+    font-size: 1.33rem;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* SECTION */
+section{
+    background-color: black;
+}
+
+/* LEFT-BAR */
+
+.exchange_rate{
+    position: fixed;
+    left: 0.25rem; 
+    display: flex;
+    flex-direction: column; 
+    width: 22vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.exchange_rate .box{
+    padding: 1.3rem;
+    width: 18vw;
+    height: 10vh;
+    border: solid 0.3125rem #FAA305;
+    border-radius: 1rem;   
+    display: flex;
+    color: white;
+    font-size: 2.2rem;
+    font-weight:bold ;
+    align-items: center;       
+}
+
+.exchange_rate div img{
+    height: 5rem;
+}
+.exchange_rate_right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse;
+    margin-left: 2.5rem;
+}
+.exchange_rate_right p{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.exchange_rate_right .up{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+}
+.exchange_rate_right .down{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+}
+
+.exchange_rate .box:first-child{
+    margin-top: 1.5rem;
+}
+
+.box-background{
+    background-color: black;
+}
+
+/* MIDDLE-BAR */
+
+.middle{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    width: 53vw;
+    border-right: solid 5px #FAA305;
+    border-left: solid 5px #FAA305;   
+}
+.welcome_clause{    
+    display: flex;
+    justify-content: center;
+    width: 52vw;
+    height: 3rem;
+    padding: 1.5rem 0rem 5.5rem 0rem;    
+    border-bottom: solid 5px  #FAA305;
+}
+.welcome_clause p{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3.75rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: white    
+}
+/* FOR THE FIRST AND THIRD PARAGRAPH */
+#flex-container-0, #flex-container-2{
+    display: flex;
+    justify-content: center;    
+}
+
+.paragraph_middle_1  {
+    display:flex;   
+    flex-direction: column;  /* For the H1 and p  */      
+    align-items: center;
+    margin-top: 5rem;
+    padding: 3rem;
+    border: solid 5px #FAA305;
+    border-radius: 1rem;
+    width: 50rem; 
+}
+
+.paragraph_middle_1 h1 , .paragraph_middle_3 h1 {
+    font-size: 2.68rem;
+    font-style: italic;
+    color: white;
+    
+}
+.paragraph_middle_1 p , .paragraph_middle_3 p{    
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
+    font-size: 1.68rem;
+    font-style: italic;
+    color: white;
+}
+/* FOR THE SECOND PARAGRAPHS */
+#flex-container-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3rem 0 3rem; 
+}
+
+.paragraph_middle_2_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+     padding: 1rem; 
+    border: solid 5px #FAA305;
+    border-radius: 1rem;
+    height: 21.815rem;  
+    width: 25.56rem; 
+    margin-right: 1rem;
+}
+
+.paragraph_middle_2_1 h1 {
+    font-size: 1.4rem;
+    font-style: italic;    
+    color: white;    
+}
+.paragraph_middle_2_1 p{
+    color: white;
+    font-style: 0.8rem;
+}
+.paragraph_middle_2_1 img{
+    width: 122.5px;
+    height: 6.56rem;
+    margin: 0.5rem;
+    border: solid 5px white;
+}
+
+.paragraph_middle_2_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5rem;
+     padding: 1rem; 
+    border: solid 0.3125rem #FAA305;
+    border-radius: 1rem;
+    height: 21.815rem;  
+    width: 26.56rem;
+}
+
+.paragraph_middle_2_2 h1 {
+    font-size: 1.68rem;
+    font-style: italic;    
+    color: white;    
+}
+.paragraph_middle_2_2 p{
+    color: white;
+}
+
+.paragraph_middle_2_2 span{   
+    padding: 0.625rem;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+}
+.paragraph_middle_2_2 .input_box{
+    color: white;
+    position: relative;
+    width: 100%;
+}
+.input_box input{
+    width: 100%;
+    padding: 0.99rem;
+    border: 1px solid white;
+    background: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1em;
+}
+.paragraph_middle_2_2 .button_box {
+    color: white;
+    position: relative;
+    width: 100%;
+}
+.button_box button,.inspect_button button{
+    width: 100%;
+    padding: 0.5em;
+    border: 0.1875rem solid #FAA305;
+    border-radius: 1rem;
+    background: #FAA305;
+    font-size: 1.25em;
+    font-family: fantasy;
+    letter-spacing: 1px;   /* For between of letters */
+    cursor: pointer;
+}
+.button_box button:hover,.inspect_button button:hover{
+    transition: 1s;
+    background-color: black;
+    color: #FAA305;
+}
+.inspect_button{
+    margin: 1rem;
+}
+/* FOR THE THIRD PARAGRAPH */
+.paragraph_middle_3 {
+    display:flex;   
+    flex-direction: column;  /* For the H1 and p  */      
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1rem;
+    border: solid 5px #FAA305;
+    border-radius: 1rem;
+    width: 50rem;
+    height: 21.875rem; 
+}
+
+/* FOR THE SURVEY */
+#flex-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: aliceblue;
+    
+}
+.survey{
+    display:flex;
+    justify-content:space-around;   
+    flex-direction: column;
+    width: 90%;
+    height: 20rem;
+    margin: 5rem 0 0.5rem 0;
+    background-color: #FAA305; 
+    color: white;
+    border: solid 0.3125rem black;
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+.survey_part1 h2{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+/* I LOVE I LIKE NEUTRAL I DONT LIKE TERRIBLE  */
+.survey_part1 .options{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.875rem; 
+    margin: 0 1rem 0 1rem;
+}
+input[type="radio"]:checked + .checkmark {
+    background-color: #FAA305; 
+}
+
+.survey_part1 input[type='radio'] {
+    appearance: none;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1.5px solid black;
+    border-radius: 50%;
+  }
+  .survey_part1 input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%; 
+    border-radius: 50%;
+  }
+  
+  .survey_part1 input[type='radio']:checked:before {
+    background: black;
+  }
+
+  .survey_part2 .suggestion{
+    display: flex;
+    justify-content: space-between;
+  }
+  .survey_part2 label{
+    font-size: x-large;
+  }
+  .survey_part2 button{
+    border:solid 0.1875rem black;
+    border-radius: 1rem;
+    margin-top: 0.99rem;
+    width: 100%;
+    height: 52.5%;
+    font-family:fantasy;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.survey_part2 #send_button:hover{
+    transition: 1s;
+    background-color:#FAA305;
+    color: black;   
+}
+
+/* RIGHT BAR */
+
+.right{
+    position: fixed; 
+    right: 2rem;   
+    top: 18rem;
+    width:20vw;
+}
+.person_information{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #FAA305;
+    border-radius: 1rem;
+    background-color: black; 
+}
+.person_information img{
+   
+   height: 8.25rem;
+   border: 2px solid black;
+   border-radius: 50%;
+   object-fit:cover;
+   cursor:pointer;
+}
+.person_information p{
+    color: white;
+    font-size: 1rem;
+}
+.balance_information{
+
+    margin-top: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #FAA305;
+    border-radius: 1rem;
+    background-color: black;     
+}
+.balance_information #money_value{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #FAA305;
+    border-radius: 1rem;
+    background: #FAA305;
+    height: 3rem;
+}
+
+.balance_information img{
+    
+    height: 3.5rem;    
+}    
+ 
+.balance_information #transfer_button{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+    border: 3px solid #FAA305;
+    border-radius: 1rem;
+    background: #FAA305;
+    font-size: 1rem;
+    font-family: fantasy;
+    letter-spacing: 0.06rem;  
+    cursor: pointer;    
+}
+.balance_information #transfer_button:hover{
+    transition: 1s;
+    background-color: black;
+    color: #FAA305;
+}
+
+.last_operations{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid #FAA305;
+    border-radius: 1rem;
+    background-color: black;     
+}
+.last_operations h2{
+    margin: 0.2rem 0 1rem 0;
+    text-align: center;
+    color: white;
+}
+ .transaction{
+    display: flex;
+    justify-content: space-around;
+    font-size:  larger;
+    color: white;
+    border: solid 5px #FAA305;
+    border-radius: 1rem;
+    height: 7vh;
+    margin-bottom: 0.1rem;
+}
+
+.transaction .amount_detail_1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 40%;
+    color: white;
+    font-size: 1rem;
+    font-weight:bold;    
+}
+.transaction .amount_detail_2{
+    display: flex;
+   justify-content: center; 
+    align-items: center;   
+   width: 60%;
+
+}
+.amount_negative{
+    font-size: larger;
+    color: red;
+}
+.amount_positive{
+    color: greenyellow;
+}
+ .recipient{
+    color: white;
+    font-style: italic;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+.footer_middle{
+    background-color: #FAA305;
+    width: 53vw;   
+    margin:auto;
+}
+
+.footer-section-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+.social-icons{
+    font-size: 1.1rem;
+}
+.footer-bottom{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+/* MEDIA QUERY */
+@media only screen and (max-width: 1600px){
+    .box{
+        width: 15rem;
+
+
+    }
+    .exchange_rate_right{
+        margin-left: 0.5rem;
+        
+    }
+    .exchange_rate div img{
+        height: 3rem;
+    }
+    .exchange_rate div .up{
+        margin: 0;
+    }
+    .exchange_rate div .down{
+        margin: 0;
+    }
+    .paragraph_middle_3 p{
+        font-size: 1.4rem;
+    }
+    .paragraph_middle_3 #inspect_button{
+        font-size: 1.1rem;
+    }
+
+    .survey_part2 button{
+        height: 30%;
+    }
+   
+    .balance_information #transfer_button{
+       font-size: smaller;
+    }
+    
+
+
+
+}
+
+@media only screen and (max-width: 1100px){
+    .box{
+        width: 13rem;
+
+
+    }
+    .exchange_rate_right{
+        margin-left: 0.3rem;
+        
+    }
+    .exchange_rate div img{
+        height: 2rem;
+    }
+    .exchange_rate div .up{
+        margin: 0;
+    }
+    .exchange_rate div .down{
+        margin: 0;
+    }
+    .paragraph_middle_3 p{
+        font-size: 1.2rem;
+    }
+    .paragraph_middle_3 #inspect_button{
+        font-size: 0.9rem;
+    }
+
+    .survey_part2 button{
+        height: 25%;
+    }
+   
+    .balance_information #transfer_button{
+       font-size: x-small;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .box{
+        width: 13rem;
+    }
+    .exchange_rate_right{
+        margin-left: 0.3rem;
+        
+    }
+    .exchange_rate div img{
+        height: 2rem;
+    }
+    .exchange_rate div .up{
+        margin: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .exchange_rate div .down{
+        margin: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .exchange_rate .box{
+        font-size: medium;
+    }
+    .paragraph_middle_3 p{
+        font-size: 1.2rem;
+    }
+    .paragraph_middle_3 #inspect_button{
+        font-size: 0.9rem;
+    }
+
+    .survey_part2 button{
+        height: 25%;
+    }
+   
+    .balance_information #transfer_button{
+       font-size: x-small;
+    }
+    .balance_information img{
+    
+        width: 3.5rem;    
+    }  
+}
+@media only screen and (max-width: 768px){
+    .mainbar_clause_one{
+        font-size: 1rem;
+    }
+    .welcome_clause p{
+        
+        font-size: 2.5rem;   
+    }
+    .box{
+        width: 13rem;
+    }
+    .exchange_rate_right{
+        margin-left: 0.3rem;
+        
+    }
+    .exchange_rate div img{
+        height: 2rem;
+    }
+    .exchange_rate div .up{
+        margin: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .exchange_rate div .down{
+        margin: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .exchange_rate .box{
+        font-size: medium;
+    }
+    .paragraph_middle_2_2{
+        font-size: x-small;
+    }
+    .paragraph_middle_3 h1{
+        font-size: 1.2rem;
+    }
+    .paragraph_middle_3 p{
+        font-size: 1.2rem;
+    }
+    .paragraph_middle_3 #inspect_button{
+        font-size: 0.9rem;
+    }
+
+    .survey_part1 h2{
+        font-size: medium;
+    }
+    .survey_part1 .options{
+        font-size: 1rem ;
+    }
+    .survey_part2 button{
+        height: 25%;
+    }
+   
+    .balance_information #transfer_button{
+       font-size: x-small;
+    }
+    .balance_information img{
+        height: 2rem;
+        width: 2.5rem;    
+    }  
+    .balance_information #money_value{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+

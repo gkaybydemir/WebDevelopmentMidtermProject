@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="index.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div id="flex-container_navbar">
+        </div>
+
+        <div class="elements_nav_left">
+          
+            <a href="#" class="home">Home</a>
+            <a href="#" class="about">About</a>
+            <a href="#" class="cards">Cards</a>
+            <a href="#" class="loan">Loan</a>
+            <a href="#" class="deposit">Deposit</a>
+            
+        </div>
+        <div class="elements_nav_right">
+            <a href="#">Settings</a>
+            <a href="#">Quit</a>
+           
+        </div>
+        
+        
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <div class="mainbar_logo">
+            <img src="images/bank_logo.jpg" alt="logo">
+        </div>
+        <div class = mainbar_clause>
+            <p class="mainbar_clause_one">"The greatness of money is not measured by what you can do with it, but by how well you use it."</p>
+        </div>
+    </header>
+    
+
+
+    <!-- SECTION -->
+    <section>
+
+        <!-- LEFT BAR -->
+        <div class = "exchange_rate">
+                <div class ="box box-background">
+                    <img src="images/dollar.png" alt="">
+                    <div class="exchange_rate_right">
+                        <img src="images/up_logo.png" alt="" class="up">
+                        <p class="dolar-word">
+                             28.6
+                        </p>
+                    </div>
+                </div>
+                
+                <div class ="box box-background">
+                    <img src="images/euro.png" alt="">
+                    <div class="exchange_rate_right">
+                        <img src="images/down_logo.png" alt="" class="down">
+                        <p class="euro-word">
+                             31.2
+                        </p>
+                    </div>
+                </div>
+                <div class ="box box-background">
+                    <img src="images/pound-sterling.png" alt="">
+                    <div class="exchange_rate_right">
+                        <img src="images/up_logo.png" alt="" class="up">
+                        <p class="sterling-word">
+                             35.7
+                        </p>
+                    </div>
+                </div>
+                <div class ="box box-background">
+                    <img src="images/bitcoin.png" alt="">
+                    <div class="exchange_rate_right">
+                        <img src="images/down_logo.png" alt="" class="down">
+                        <p class="bitcoin-word">
+                             33.7
+                        </p>
+                    </div>
+                </div>
+                 <div class ="box box-background">
+                    <img src="images/yen.png" alt="">
+                    <div class="exchange_rate_right">
+                        <img src="images/down_logo.png" alt="" class="down">
+                        <p class="yen-word">
+                             0.19
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+        <!-- MIDDLE BAR -->
+        <div class="middle">
+            <div class="welcome_clause">
+                <p>Welcome Eagle Bank</p>
+            </div>
+
+            <div id="flex-container-0">
+                 <div class="paragraph_middle_1">
+                 <h1>Personal Consumer Loan</h1>
+                 <p>Do not postpone today's needs until tomorrow. Personal Consumer Loan for all your needs is instantly available with <strong>Eagle Bank</strong> with affordable interest rates!</p>
+            </div>
+            </div>
+            <div id="flex-container-1">
+            <div class="paragraph_middle_2_1">
+                <h1>Download The Application Via QR Code</h1>
+                <p>You can instantly install <strong>Eagle Bank Mobile</strong> suitable for your device by scanning the QR code below with the QR code reader on your device.</p>
+                <img src="images/qr_code.png" alt="">
+            </div> 
+            <div class="paragraph_middle_2_2">
+                <h1>Download Via SMS Link</h1>
+                <p>Type your mobile phone number and click Send SMS, and the application installation link will be sent to your mobile phone as an SMS.</p>                
+                
+                
+                <div class="input_box">
+                        <span>Phone Number</span>
+                         
+                         <input type="text" required="required" placeholder="0 XXX XXX XX XX"> 
+                </div>
+                <div class="button_box">
+                 <button type="submit" id="sms_button">Send SMS</button> 
+
+                </div>               
+            </div>
+            </div>
+            <div id="flex-container-2">
+                <div class="paragraph_middle_3">
+                    <h1>Eagle Extra Debit Card</h1>
+                    <p>You can benefit from Eagle Extra advantages by using your Eagle Extra Debit Card for your expenses or by making your bill payments from your current account. When you reach the target score by earning 1 point for every 1 TL you spend, you can benefit from extra advantages specific to your target score in the next month and multiply your advantages by accumulating more points.</p>
+                    <div class="inspect_button">
+                        <button type="submit" id="inspect_button">INSPECT</button> 
+                    </div>
+                </div>          
+    </div>
+            <div id="flex-container-3">
+                <div class="survey">                   
+                    <div class="survey_part1">
+                        <form action="#">
+                            <h2>Do you like our website?</h2>
+                        <div class="options">
+                        <label for="option-1">
+                            <input type="radio" id="option-1" name="rating" value="love">
+                            I love
+                        </label>
+                        <label for="option-2">
+                            <input type="radio" id="option-2" name="rating" value="like">
+                            <span class="checkmark"></span>
+                            I like 
+                            
+                            
+                            
+                        </label>
+                        <label for="option-3">
+                            <input type="radio" id="option-3" name="rating" value="neutral">
+                            Neutral
+                        </label>
+                        <label for="option-4">
+                            <input type="radio" id="option-4" name="rating" value="dlike">
+                            I dont like
+                        </label>
+                        <label for="option-5">
+                            <input type="radio" id="option-5" name="rating" value="terrible">
+                            Terrible
+                        </label>
+                        </div>
+
+                    </div>
+                    <div class="survey_part2">
+                <div class="suggestion">
+                        <label for="suggestion">If you have a suggestion, please write</label>
+                        <textarea id="suggestion" name="suggestion" rows="4" cols="70" placeholder="Write"></textarea>
+                        </div>                        
+                    </form>
+                        <button type="submit" id="send_button">SEND</button>
+                </div>
+                </div>     
+            </div>
+        </div>
+        <!-- RIGHT BAR -->
+
+        <div class="right">
+
+
+            
+            <div class="person_information">
+                <img src="images/person_photo.png" alt="" id="person">
+                <p> <strong>Gokay Baydemir</strong></p>
+                <p>Turkey/Mugla</p>
+                <p>Kotekli Sube</p>
+            </div>
+
+            <div class="balance_information">        
+                <p id="money_value">7.000 TL</p>
+                <img src="images/wallet.png" alt="" id="person">
+                <button type="submit" id="transfer_button">Quick Money Transfer</button>                
+            </div>
+
+            <div class="last_operations">
+                <h2>Last Operations</h2>
+                    <div class="transaction">
+                            <div class="amount amount_detail_1">
+                                <span class="amount_negative"> -100 TL</span>
+                            </div>
+                            <div class="amount_detail_2">
+                                <span class="recipient">To Baran Isci</span>
+                            </div>
+                    </div>
+                    <div class="transaction">                       
+                            <div class="amount amount_detail_1">
+                                <span class="amount_positive"> +1500 TL</span>
+                            </div>
+                            <div class="amount_detail_2">
+                                <span class="recipient">From Ayşe Ölmez</span>
+                            </div>
+                    </div>
+                    <div class="transaction">                       
+                            <div class="amount amount_detail_1">
+                                <span class="amount_negative"> -150 TL</span>
+                            </div>
+                            <div class="amount_detail_2">
+                                <span class="recipient">To Isa Oselmis</span>
+                            </div>
+                    </div>
+                    <div class="transaction">                        
+                            <div class="amount amount_detail_1">
+                                <span class="amount_positive"> +9200 TL</span>
+                            </div>
+                            <div class="amount_detail_2">
+                                <span class="recipient">From Aydin Baydemir</span>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>        
+        <div class="footer_middle">
+        <div class="footer-section-about">
+                <div class="about-us">
+                    <strong>About Us</strong>
+                </div>
+                <div class="about-us-clause">
+                    <p>We have been providing you reliable service since 1903. And we're proud of it.</p>
+                </div>
+                <div class="social-icons">
+                    <ul class="social-icons">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+                </div>
+              </div>
+            
+          <div class="footer-bottom">
+            &copy; 2023 Eagle Bank. All rights are reserved.
+          </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
